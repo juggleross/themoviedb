@@ -8,7 +8,8 @@ A Ruby wrapper for the [The Movie Database API](http://docs.themoviedb.apiary.io
 
 Provides a simple, easy to use interface for the Movie Database API.
 
-Get your API key [here](https://www.themoviedb.org/account).
+Get your API key [here](https://www.themoviedb.org/settings/account).
+Instruction for getting api(https://developers.themoviedb.org/3/getting-started)
 
 ## Getting started
 
@@ -31,7 +32,7 @@ Tmdb::Api.key("KEY_HERE")
 You can change the language for the returned data with this:
 
 ```ruby
-Tmdb::Api.language("de")
+Tmdb::Api.language("ru")
 ```
 
 The default language is english.
